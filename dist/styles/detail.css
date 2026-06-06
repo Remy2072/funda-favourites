@@ -1,0 +1,51 @@
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.house-container {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.house-name {
+    font-size: 1.5rem;
+}
+
+.house-code {
+    color: #999;
+    font-size: 1rem;
+}
+
+.house-width {
+    margin-top: 5px;
+    color: orange;
+}
+
+.house-agent {
+    color: #0071b3;
+    margin-top: 5px;
+}
+
+.house-price {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.house-price::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    background-color: rgb(218, 218, 218);
+}
+
+.heading {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
